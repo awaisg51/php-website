@@ -497,7 +497,7 @@ $mail->isSMTP();
 $mail->SMTPAuth = true;                               
 $mail->Username = 'usert437@gmail.com';                 
 $mail->Password = 'testuser@123';
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                             
+$mail->SMTPSecure = 'ssl';                             
 $mail->Port = 587;  
 $mail->setFrom('info@apliuslangai.lt', "Apliuslangai");
 $mail->addReplyTo($contact_email, $contact_name);
