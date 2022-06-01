@@ -1,4 +1,87 @@
+<?php
 
+$contact_name = $_POST['first_name'];
+$contact_email = $_POST['email'];
+$contact_phone = $_POST['phone'];
+$contact_message = $_POST['custom_1'];
+
+$sender = $contact_email;
+
+	
+	
+	$email_body = '<table style="width: 100%;margin-bottom: 20px;">
+    <tr style="text-align: left;">
+        <td>
+            <img src="https://awais.quraneducator.net/mikasmarcinkus/images/logo.png" width="200" />
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+    <td width="100">Name :</td>
+    <td>'.$contact_name.'</td>
+    </tr>
+    <tr>
+    <td>Email :</td>
+    <td>'.$contact_email.'</td>
+    </tr>
+    <tr>
+    <td>Phone :</td>
+    <td>'.$contact_phone.'</td>
+    <tr>
+    <td valign="top">Message :</td>
+    <td>'.$contact_message.'</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td>Tel: (370) 655 62966</td>
+    </tr>
+    <tr>
+    <td>Email: <a href="mailto:info@apliuslangai.lt">info@apliuslangai.lt</a></td>
+    </tr>
+    <tr>
+    <td>Web: <a href="https://www.apliuslangai.eu/">https://www.apliuslangai.eu/</a></td>
+    </tr>  
+	<tr>
+    <td>Address: Butrimonių g. 5, Kaunas</td>
+    </tr>  
+</table>
+</body>
+</html>
+';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+                                 
+require 'vendor/autoload.php';
+
+$mail = new PHPMailer(true);
+$mail->Host = 'smtp.gmail.com';
+$mail->isSMTP();  
+$mail->SMTPAuth = true;                               
+$mail->Username = 'usert437@gmail.com';                 
+$mail->Password = 'testuser@123';
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                             
+$mail->Port = 587;  
+$mail->setFrom('info@apliuslangai.lt', "Apliuslangai");
+$mail->addReplyTo($contact_email, $contact_name);
+$mail->addAddress('awaisg51@gmail.com', 'Apliuslangai');
+$mail->isHTML(true);                                  
+
+$mail->Subject = 'Apliuslangai Contact Form - '.$contact_name;
+$mail->Body    = $email_body;
+$mail->send();
+
+if(!$mail->Send()) {
+    echo "Mail sending failed";
+} else {
+    echo "Successfully sent";
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -429,84 +512,6 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
 
 </body>
 </html>
-
-
-<?php
-
-$contact_name = $_POST['first_name'];
-$contact_email = $_POST['email'];
-$contact_phone = $_POST['phone'];
-$contact_message = $_POST['custom_1'];
-
-$sender = $contact_email;
-
-	
-	
-	$email_body = '<table style="width: 100%;margin-bottom: 20px;">
-    <tr style="text-align: left;">
-        <td>
-            <img src="https://awais.quraneducator.net/mikasmarcinkus/images/logo.png" width="200" />
-        </td>
-    </tr>
-</table>
-<table>
-    <tr>
-    <td width="100">Name :</td>
-    <td>'.$contact_name.'</td>
-    </tr>
-    <tr>
-    <td>Email :</td>
-    <td>'.$contact_email.'</td>
-    </tr>
-    <tr>
-    <td>Phone :</td>
-    <td>'.$contact_phone.'</td>
-    <tr>
-    <td valign="top">Message :</td>
-    <td>'.$contact_message.'</td>
-    </tr>
-</table>
-<br>
-<table>
-    <tr>
-        <td>Tel: (370) 655 62966</td>
-    </tr>
-    <tr>
-    <td>Email: <a href="mailto:info@apliuslangai.lt">info@apliuslangai.lt</a></td>
-    </tr>
-    <tr>
-    <td>Web: <a href="https://www.apliuslangai.eu/">https://www.apliuslangai.eu/</a></td>
-    </tr>  
-	<tr>
-    <td>Address: Butrimonių g. 5, Kaunas</td>
-    </tr>  
-</table>
-</body>
-</html>
-';
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-                                 
-require 'vendor/autoload.php';
-
-$mail = new PHPMailer(true);
-$mail->Host = 'smtp.gmail.com';
-$mail->isSMTP();  
-$mail->SMTPAuth = true;                               
-$mail->Username = 'usert437@gmail.com';                 
-$mail->Password = 'testuser@123';
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                             
-$mail->Port = 587;  
-$mail->setFrom('info@apliuslangai.lt', "Apliuslangai");
-$mail->addReplyTo($contact_email, $contact_name);
-$mail->addAddress('awaisg51@gmail.com', 'Apliuslangai');
-$mail->isHTML(true);                                  
-
-$mail->Subject = 'Apliuslangai Contact Form - '.$contact_name;
-$mail->Body    = $email_body;
-$mail->send();
  
 
 
