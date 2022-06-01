@@ -262,7 +262,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                             </div>
                         </div>
                     </div>
-                    <div class="row row--equal background_changer--blur0" data-component="grid" id="HfvT1gCaV1" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; margin-top: 0px; margin-bottom: 60px; background-image: none; opacity: 1;">
+                    <div class="row row--equal background_changer--blur0 second-row" data-component="grid" id="HfvT1gCaV1" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; margin-top: 0px; margin-bottom: 60px; background-image: none; opacity: 1;">
 
                         <div class="column--vertical-center col-md-6">
                             <div class="js_kartra_component_holder">
@@ -468,7 +468,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                             </div>
                         </div>
                     </div>
-                    <div class="row row--equal background_changer--blur0" data-component="grid" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; margin-top: 0px; margin-bottom: 60px; background-image: none; opacity: 1;" id="Gu5FrX0R6m">
+                    <div class="row row--equal background_changer--blur0 second-row" data-component="grid" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; margin-top: 0px; margin-bottom: 60px; background-image: none; opacity: 1;" id="Gu5FrX0R6m">
 
                         <div class="column--vertical-center col-md-6">
                             <div class="js_kartra_component_holder">
