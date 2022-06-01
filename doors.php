@@ -109,7 +109,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                     <div class="container nav-elem-wrapper nav-elem-wrapper--md-sm-flex nav-elem-wrapper--md-sm-vertical-center nav-elem-wrapper--md-sm-justify-content-space-between">
                         <div class="navbar-header nav-elem-col">
                             <div data-component="image">
-                                <a href="index.html" data-frame-id="_widsasqe5" target="_parent">
+                                <a href="index.php" data-frame-id="_widsasqe5" target="_parent">
                                     <picture>
                                         <img class="kartra_image kartra_image--logo kartra_image--margin-bottom-none pull-left background_changer--blur0" src="images/logo.png" alt="" style="border: 0px none rgb(35, 82, 124); margin: 0px; opacity: 1; width: 162px; max-width: 100%; height: auto;">
                                     </picture>
@@ -132,15 +132,15 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                         <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_section" href="#_dk94gtkbz" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(66, 66, 66); font-weight: 400; font-family: Montserrat; border-color: transparent;" target="_self">Langai</a>
                                     </li>
                                     <li class="propClone">
-                                        <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_pagelink" href="doors.html" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(66, 66, 66); font-weight: 400; font-family: Montserrat; border-color: transparent;" data-project-id="1" data-page-id="8" target="_parent">Durys</a>
+                                        <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_pagelink" href="doors.php" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(66, 66, 66); font-weight: 400; font-family: Montserrat; border-color: transparent;" data-project-id="1" data-page-id="8" target="_parent">Durys</a>
                                     </li>
                                     <li class="propClone">
-                                        <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_pagelink" href="blog.html" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(66, 66, 66); border-color: transparent; font-weight: 400; font-family: Montserrat;" data-project-id="1" data-page-id="9" target="_parent">Naujienos</a>
+                                        <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_pagelink" href="blog.php" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(66, 66, 66); border-color: transparent; font-weight: 400; font-family: Montserrat;" data-project-id="1" data-page-id="9" target="_parent">Naujienos</a>
                                     </li>
 
 
                                     <li class="propClone">
-                                        <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_pagelink hover" href="contact.html" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(255, 195, 0); font-weight: 400; font-family: Montserrat; border-color: rgb(255, 195, 0);" data-project-id="1" data-page-id="2" target="_parent">Susisiekite</a>
+                                        <a class="nav__link--padding-top-bottom-extra-medium nav__link--only-sm-padding-top-bottom-special-medium nav__link--rounded-none nav__link--padding-left-right-none nav__link--md-margin-left-right-15px nav__link--style-dark nav__link--style-two toggle_pagelink hover" href="contact.php" data-color="rgb(66, 66, 66)" data-frame-id="_widsasqe5" onmouseover="this.style.color='rgb(255, 195, 0)';this.style.borderColor='rgb(255, 195, 0)'" onmouseout="this.style.color='rgb(66, 66, 66)';this.style.borderColor='transparent'" style="color: rgb(255, 195, 0); font-weight: 400; font-family: Montserrat; border-color: rgb(255, 195, 0);" data-project-id="1" data-page-id="2" target="_parent">Susisiekite</a>
                                     </li>
                                 </ul>
                             </div>
@@ -189,7 +189,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                             </div>
                         </div>
                         <div data-component="button" id="opIB2VcUHb">
-                            <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--giant kartra_button1--squared kartra_button1--shadow-medium pull-center toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px auto 50px; font-family: Montserrat;" data-frame-id="_dk94gtkbz" data-project-id="1" data-page-id="2" target="_parent">Siųskite Užklausą!</a>
+                            <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--giant kartra_button1--squared kartra_button1--shadow-medium pull-center toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px auto 50px; font-family: Montserrat;" data-frame-id="_dk94gtkbz" data-project-id="1" data-page-id="2" target="_parent">Siųskite Užklausą!</a>
                         </div>
                     </div></div></div>
                 </div>
@@ -252,7 +252,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                     </div>
                                 </div> 
                                 <div data-component="button">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_xlch9jxh1" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti!</a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_xlch9jxh1" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti!</a>
                                 </div>                                                      
                             </div>
                         </div>
@@ -280,7 +280,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                     </div>
                                 </div>
                                 <div data-component="button" id="PO1LVPxgZi">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_xlch9jxh1" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti!</a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_xlch9jxh1" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti!</a>
                                 </div> 
 
                             </div>
@@ -326,7 +326,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                     </div>
                                 </div>
                                 <div data-component="button" id="o4XFdHmt9a">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_xlch9jxh1" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti!</a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_xlch9jxh1" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti!</a>
                                 </div> 
 
                             </div>
@@ -381,7 +381,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                         <div class="column--vertical-center col-md-3 col-md-offset-1">
                             <div class="js_kartra_component_holder">
                                 <div data-component="button" id="Wi8Lq7V3OM">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 30px; font-family: Montserrat;" data-frame-id="_l28o9f4n4" data-project-id="1" data-page-id="2" target="_parent">Klausti Dabar!</a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 30px; font-family: Montserrat;" data-frame-id="_l28o9f4n4" data-project-id="1" data-page-id="2" target="_parent">Klausti Dabar!</a>
                                 </div>                        
                             </div>
                         </div>
@@ -442,7 +442,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                     </div>
                                 </div>
                                 <div data-component="button" id="y5ZWHGx112">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_25jhqg0m1" data-project-id="1" data-page-id="2" target="_parent">Siųsti Užklausą!</a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_25jhqg0m1" data-project-id="1" data-page-id="2" target="_parent">Siųsti Užklausą!</a>
                                 </div> 
 
                             </div>
@@ -472,7 +472,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                     </div>
                                 </div>
                                 <div data-component="button" id="y5ZWHGx112">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_25jhqg0m1" data-project-id="1" data-page-id="2" target="_parent">Klausti Dabar!</a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--roboto-condensed-font kartra_button1--dark-dodger-blue-two kartra_button1--shadow-01 sm-pull-center kartra_button1--solid kartra_button1--large kartra_button1--squared kartra_button1--shadow-medium pull-left toggle_pagelink" style="font-weight: 400; background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px 0px 50px; font-family: Montserrat;" data-frame-id="_25jhqg0m1" data-project-id="1" data-page-id="2" target="_parent">Klausti Dabar!</a>
                                 </div> 
 
                             </div>
@@ -556,7 +556,7 @@ Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
                                     </div>
                                 </div> 
                                 <div data-component="button">
-                                    <a href="contact.html" class="kartra_button1 kartra_button1--nunito-font kartra_button1--font-weight-bold kartra_button1--inset-shadow02 kartra_button1--light-gold kartra_button1--light-black-color kartra_button1--icon-right kartra_button1--rounded-tiny kartra_button1--shadow-01 kartra_button1--solid kartra_button1--full-width kartra_button1--squared kartra_button1--shadow-medium pull-center toggle_pagelink" data-frame-id="_paj8olavg" style="background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px auto 20px; font-weight: 400; font-family: Montserrat;" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti įmoką<span class="kartra_icon__icon fa fa-thumbs-o-up" style="color: rgba(62, 39, 36, 0.5); border-color: rgba(62, 39, 36, 0.5); font-weight: 400;"></span></a>
+                                    <a href="contact.php" class="kartra_button1 kartra_button1--nunito-font kartra_button1--font-weight-bold kartra_button1--inset-shadow02 kartra_button1--light-gold kartra_button1--light-black-color kartra_button1--icon-right kartra_button1--rounded-tiny kartra_button1--shadow-01 kartra_button1--solid kartra_button1--full-width kartra_button1--squared kartra_button1--shadow-medium pull-center toggle_pagelink" data-frame-id="_paj8olavg" style="background-color: rgb(255, 195, 0); color: rgb(51, 51, 51); margin: 0px auto 20px; font-weight: 400; font-family: Montserrat;" data-project-id="1" data-page-id="2" target="_parent">Skaičiuoti įmoką<span class="kartra_icon__icon fa fa-thumbs-o-up" style="color: rgba(62, 39, 36, 0.5); border-color: rgba(62, 39, 36, 0.5); font-weight: 400;"></span></a>
                                 </div>     
                                 <div data-component="text">
                                     <div class="kartra_text kartra_text--white-opaque-8 kartra_text--text-small kartra_text--text-center kartra_text--lato-font kartra_text--font-weight-regular" aria-controls="cke_3478" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false" style="position: relative;">
