@@ -1,5 +1,12 @@
 <?php
 
+require_once './vendor/autoload.php';
+ 
+use Symfony\Component\Mailer\Transport;
+use Symfony\Component\Mailer\Mailer;
+use Symfony\Component\Mime\Email;
+
+
 $contact_name = $_POST['first_name'];
 $contact_email = $_POST['email'];
 $contact_phone = $_POST['phone'];
@@ -51,35 +58,33 @@ $sender = $contact_email;
 </body>
 </html>
 ';
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-                                 
-require 'vendor/autoload.php';
-
-$mail = new PHPMailer(true);
-$mail->Host = 'smtp.gmail.com';
-$mail->isSMTP();  
-$mail->SMTPAuth = true;                               
-$mail->Username = 'usert437@gmail.com';                 
-$mail->Password = 'testuser@123';
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                             
-$mail->Port = 587;  
-$mail->setFrom('info@apliuslangai.lt', "Apliuslangai");
-$mail->addReplyTo($contact_email, $contact_name);
-$mail->addAddress('awaisg51@gmail.com', 'Apliuslangai');
-$mail->isHTML(true);                                  
-
-$mail->Subject = 'Apliuslangai Contact Form - '.$contact_name;
-$mail->Body    = $email_body;
-$mail->send();
-
-if(!$mail->Send()) {
-    echo "Mail sending failed";
-} else {
-    echo "Successfully sent";
-}
+ 
+// Create a Transport object
+$transport = Transport::fromDsn('smtp://awaisg51@gmail.com:thfaozwzvplydaax@smtp.gmail.com:587');
+ 
+// Create a Mailer object
+$mailer = new Mailer($transport); 
+ 
+// Create an Email object
+$email = (new Email());
+ 
+// Set the "From address"
+$email->from('info@apliuslangai.lt');
+ 
+// Set the "From address"
+$email->to('usert437@gmail.com');
+ 
+// Set a "subject"
+$email->subject('Demo message using the Symfony Mailer library.');
+ 
+// Set the plain-text "Body"
+$email->text('This is the plain text body of the message.\nThanks,\nAdmin');
+ 
+// Set HTML "Body"
+$email->html('This is the HTML version of the message.<br>Example of inline image:<br><img src="cid:nature" width="200" height="200"><br>Thanks,<br>Admin');
+ 
+// Send the message
+$mailer->send($email);
 
 ?>
 <!DOCTYPE html>
