@@ -60,7 +60,7 @@ $sender = $contact_email;
 ';
  
 // Create a Transport object
-$transport = Transport::fromDsn('smtp://awaisg51@gmail.com:thfaozwzvplydaax@smtp.gmail.com:587');
+$transport = Transport::fromDsn('smtp://mikas.marcinkus@gmail.com:seouftucjmockvds@smtp.gmail.com:587');
  
 // Create a Mailer object
 $mailer = new Mailer($transport); 
@@ -69,19 +69,20 @@ $mailer = new Mailer($transport);
 $email = (new Email());
  
 // Set the "From address"
-$email->from('info@apliuslangai.lt');
+$email->from($sender);
+
+$email->replyTo($sender);
  
 // Set the "From address"
-$email->to('usert437@gmail.com');
+$email->to('awaisg51@gmail.com');
+
+$email->cc('usert437@gmail.com');
  
 // Set a "subject"
-$email->subject('Demo message using the Symfony Mailer library.');
- 
-// Set the plain-text "Body"
-$email->text('This is the plain text body of the message.\nThanks,\nAdmin');
+$email->subject('Apliuslangai Contact Form - '.$contact_name);
  
 // Set HTML "Body"
-$email->html('This is the HTML version of the message.<br>Example of inline image:<br><img src="cid:nature" width="200" height="200"><br>Thanks,<br>Admin');
+$email->html($email_body);
  
 // Send the message
 $mailer->send($email);
