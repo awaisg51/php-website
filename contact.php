@@ -2,68 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>A plius langai</title>
-    <meta name="description" content="Plastikiniai langai kaina">
-    <meta name="keywords" content="Plastikiniai langai, langai kaina, langai kaune, plastikiniu langu kaina, mazi plastikiniai langai,  a+ langai,  a plius klases langai">
-    <meta name="robots" content="index, follow">
-    <link rel="shortcut icon" href="https://kartrausers.s3.amazonaws.com/aplius/25415432_61e55ceb2156b_Untitled_design-6.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="author" content="">
-    <meta property="og:title" content="Langai geriausia kaina">
-    <meta property="og:description" content="Kokybiski plastikiniai langai ir durys pigiau">
-    <meta property="og:image" content="https://d1aettbyeyfilo.cloudfront.net/aplius/25401309_1642362882kwaUntitled_design-6.png">
-
-
-<link type="text/css" rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i,900,900i|Lato:300,300i,400,400i,600,600i,700,700i,900,900i|Raleway:300,300i,400,400i,600,600i,700,700i,900,900i|Oswald:300,300i,400,400i,600,600i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<link rel="stylesheet" href="css/new_bootstrap.css">
-<link rel="stylesheet" href="css/kartra_components.css">
-
-<link rel="stylesheet" href="https://app.kartra.com/css/new/css/pages/font-awesome.css">
-
-
-<!--headerIncludes-->
-<style>
-
-    .overlay_builder {
-        position: relative;
-    }
-
-    .kartra_optin_footer-poweredby > p {
-        font-size: 12px;
-        line-height: 130%;
-        font-weight: 300;
-        color: #333;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    body.modal-open{
-        overflow:hidden;
-    }
-
-
-    #page_background_color
-    {
-        background-color:#ffffff;
-    }
-    body
-    {
-        background-color:#ffffff;
-
-    }
-
-
-    [data-effect] {
-        visibility: hidden;
-    }
-
-</style>
-
-<script src="https://www.apliuslangai.eu/js/build/front/pages/skeleton-above.js"></script>
-<link rel="preconnect" href="//maps.gstatic.com"><link rel="dns-prefetch" href="//maps.gstatic.com"><link rel="preconnect" href="//maps.googleapis.com"><link rel="dns-prefetch" href="//maps.googleapis.com">
+    <?php include("head.php"); ?>
+    <link rel="preconnect" href="//maps.gstatic.com"><link rel="dns-prefetch" href="//maps.gstatic.com"><link rel="preconnect" href="//maps.googleapis.com"><link rel="dns-prefetch" href="//maps.googleapis.com">
 </head>
 <body>
 
@@ -121,8 +61,8 @@
                     <div class="container nav-elem-wrapper nav-elem-wrapper--md-sm-flex nav-elem-wrapper--md-sm-vertical-center nav-elem-wrapper--md-sm-justify-content-space-between">
                         <div class="navbar-header nav-elem-col">
                             <div data-component="image" href="javascript: void(0);">
-                                <img class="kartra_image kartra_image--logo kartra_image--margin-bottom-none pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="border: 0px none rgb(35, 82, 124); margin: 0px; opacity: 1; width: 117px; max-width: 100%; height: auto;" data-original="https://d1aettbyeyfilo.cloudfront.net/aplius/25226291_1641714200XmPpng_min.png">
-                            </div>
+                                <a href="index.php"><img class="kartra_image kartra_image--logo kartra_image--margin-bottom-none pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="border: 0px none rgb(35, 82, 124); margin: 0px; opacity: 1; width: 117px; max-width: 100%; height: auto;" data-original="https://d1aettbyeyfilo.cloudfront.net/aplius/25226291_1641714200XmPpng_min.png"></a>
+                            </div> 
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_AI9M7bepqp" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
